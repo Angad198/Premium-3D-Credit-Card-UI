@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Credit Card UI</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left-section">
+
+      <h1>Premium Payment</h1>
+      <p>Enter your card details below</p>
+
+      <form class="card-form">
+
+        <label>Card Number</label>
+        <input
+          type="text"
+          id="cardNumber"
+          maxlength="19"
+          placeholder="1234 5678 9012 3456"
+        >
+
+        <label>Card Holder Name</label>
+        <input
+          type="text"
+          id="cardName"
+          placeholder="Your Name"
+        >
+
+        <div class="row">
+
+          <div class="input-group">
+
+            <label>Expiry Date</label>
+
+            <input
+              type="text"
+              id="cardExpiry"
+              maxlength="5"
+              placeholder="MM/YY"
+            >
+
+          </div>
+
+          <div class="input-group">
+
+            <label>CVV</label>
+
+            <input
+              type="password"
+              id="cardCVV"
+              maxlength="3"
+              placeholder="123"
+            >
+
+          </div>
+
+        </div>
+
+      </form>
+
+    </div>
+
+
+    <!-- RIGHT SIDE -->
+    <div class="right-section">
+
+      <div class="card-container">
+
+        <div class="credit-card" id="creditCard">
+
+          <!-- FRONT CARD -->
+          <div class="card-front">
+
+            <div class="card-top">
+
+              <div class="chip"></div>
+
+              <div class="card-logo" id="cardLogo">
+                💳
+              </div>
+
+            </div>
+
+            <div
+              class="card-number-display"
+              id="displayNumber"
+            >
+              #### #### #### ####
+            </div>
+
+            <div class="card-bottom">
+
+              <div>
+                <span>Card Holder</span>
+
+                <h3 id="displayName">
+                  YOUR NAME
+                </h3>
+              </div>
+
+              <div>
+                <span>Expires</span>
+
+                <h3 id="displayExpiry">
+                  MM/YY
+                </h3>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- BACK CARD -->
+          <div class="card-back">
+
+            <div class="black-strip"></div>
+
+            <div class="cvv-box">
+              <span id="displayCVV">
+                ***
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
