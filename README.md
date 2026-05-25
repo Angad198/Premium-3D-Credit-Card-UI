@@ -67,6 +67,12 @@ Premium-3D-Credit-Card-UI/
 
 ---
 
+## 🎥 Project Demo
+
+Watch the project demonstration video below:
+
+<video src="assets/Demo Video.mp4" controls width="900"></video>
+
 ## ⚙️ Installation & Usage
 
 1. Clone the repository
