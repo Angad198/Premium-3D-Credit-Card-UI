@@ -54,16 +54,16 @@ Premium-3D-Credit-Card-UI/
 ## 📸 Project Preview
 
 ### 🏠 Homepage
-![Homepage](assets/photos/homepage.png)
+![Homepage](assets/Photos/homepage.png)
 
 ### 💳 Mastercard Detection (Starts with 5)
-![Mastercard](assets/photos/Mastercard.png)
+![Mastercard](assets/Photos/Mastercard.png)
 
 ### 💳 Visa Detection (Starts with 4)
-![Visa](assets/photos/Visa.png)
+![Visa](assets/Photos/Visa.png)
 
 ### ✨ Premium Hover Effect
-![Hover Effect](assets/photos/Hover.png)
+![Hover Effect](assets/Photos/Hover.png)
 
 ---
 
